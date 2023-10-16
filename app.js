@@ -32,7 +32,7 @@ db.ConnectDatabase().then((sucess)=>
    console.log(sucess);
 }).catch((errs,err)=>
 {
-   console.log(errs,err);
+   console.log("errs",err);
 })
 
 app.use('/admin', adminRouter);
